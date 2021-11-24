@@ -1,0 +1,478 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Tsung-Yi Lin</title>
+  
+  <meta name="author" content="Tsung-Yi Lin">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/seal_icon.png">
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Tsung-Yi Lin</name>
+              </p>
+              <p>I am a senior research scientist at <a href="https://ai.google/research">Google Research, Brain Team</a>.
+              </p>
+              <p>
+                At Google I work on computer vision and applications to robotics. I did my PhD at
+                <a href="https://www.cornell.edu/">Cornell Uniersity</a> and
+                <a href="https://www.tech.cornell.edu/">Cornell Tech</a>, where I was
+                advised by <a href="https://tech.cornell.edu/people/serge-belongie/">Serge Belongie</a>.
+                I did my masters at <a href="https://ucsd.edu/">University California, San Diego</a>
+                and my bachelors at <a href="https://www.ntu.edu.tw/english/index.html">National Taiwan University</a>.
+                I led the creation of <a href="http://cocodataset.org">COCO dataset</a> and received
+                Best Student Paper Award for <a href="https://arxiv.org/abs/1708.02002v2">Focal Loss</a> at ICCV 2017.
+              </p>
+              <p style="text-align:center">
+                <a href="mailto:tsungyilin87@gmail.com">Email</a> &nbsp/&nbsp
+                <a href="data/TsungYiLin-CV.pdf">CV</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?user=_BPdgV0AAAAJ&hl=en&oi=ao">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://twitter.com/TsungYiLin1">Twitter</a> &nbsp/&nbsp
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a href="images/tsungyi.jpeg"><img style="width:65%;max-width:65%" alt="profile photo" src="images/tsungyi.jpeg" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+              <p>
+                I work on computer vision, machine learning, and robotics. Particularly, I am interested in visual
+                perception (object detection, image segmentation, 3D reconstruction, pose estimation, etc.) and algorithms for learning a general vision
+                model across tasks and domains. Below are recent and selected publications.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+        <tr>
+            <td style="padding:20px;width:35%;vertical-align:middle">
+              <img style="width:100%" src='images/revisit_resnet.png'>
+            </td>
+            <td style="padding:20px;width:65%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2103.07579">
+                <papertitle>Revisiting ResNets: Improved Training and Scaling Strategies</papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.com/citations?user=mY6p8gcAAAAJ&hl=en&oi=ao">Irwan Bello</a>,
+              <a href="https://acsweb.ucsd.edu/~wfedus/">William Fedus</a>,
+              <a href="https://scholar.google.com/citations?user=l1hP40AAAAAJ&hl=en">Xianzhi Du</a>,
+              <a href="https://scholar.google.com/citations?user=Mu_8iOEAAAAJ&hl=en">Ekin Dogus Cubuk</a>,
+              <a href="https://people.eecs.berkeley.edu/~aravind/">Aravind Srinivas</a>,
+              <strong>Tsung-Yi Lin</strong>,
+              <a href="https://shlens.github.io/">Jonathon Shlens</a>,
+              <a href="https://barretzoph.github.io/">Barret Zoph</a>
+              <br>
+              <em>NeurIPS</em>, 2021 <font color="red"><strong>(spotlight)</strong></font>
+              <br>
+              <p></p>
+              <p>
+                Revisit ResNets with modern scaling and training strategies, showing ResNets are still competitive
+                against modern model architectures.
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:35%;vertical-align:middle">
+              <img style="width:100%" src='images/MuST.png'>
+            </td>
+            <td style="padding:20px;width:65%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2108.11353">
+                <papertitle>Multi-Task Self-Training for Learning General Features</papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.com/citations?user=9pNIbGkAAAAJ&hl=en">Golnaz Ghiasi*</a>,
+              <a href="https://barretzoph.github.io/">Barret Zoph*</a>,
+              <a href="https://scholar.google.com/citations?user=Mu_8iOEAAAAJ&hl=en">Ekin Dogus Cubuk*</a>,
+              <a href="https://cs.stanford.edu/~quocle/">Quoc V. Le</a>,
+              <strong>Tsung-Yi Lin</strong>,
+              <br>
+              <em>ICCV</em>, 2021
+              <br>
+              <p></p>
+              <p>
+                Apply pseudo labeling to Harness knowledge in multiple datasets/tasks to train one general vision model,
+                achieving competitive results to SoTA on PASCAL, ADE20K, and NYUv2.
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:35%;vertical-align:middle">
+              <img style="width:100%" src='images/patch2cad.png'>
+            </td>
+            <td style="padding:20px;width:65%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2108.09368">
+                <papertitle>Patch2CAD: Patchwise Embedding Learning for In-the-Wild Shape Retrieval from a Single Image</papertitle>
+              </a>
+              <br>
+              <a href="https://weichengkuo.github.io/">Weicheng Kuo</a>,
+              <a href="https://scholar.google.com/citations?user=nkmDOPgAAAAJ&hl=en&oi=ao">Anelia Angelova</a>,
+              <strong>Tsung-Yi Lin</strong>,
+              <a href="https://www.3dunderstanding.org/">Angela Dai</a>
+              <br>
+              <em>ICCV</em>, 2021
+              <br>
+              <p></p>
+              <p>
+                Learning a patch-based image-CAD embedding space for retrieval based 3D reconstruction,
+                improving upon our prior work Mask2CAD.
+              </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="inerf_stop()" onmouseover="inerf_start()">
+            <td style="padding:20px;width:35%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='inerf_image'><video  width=120% height=120% muted autoplay loop>
+                <source src="images/inerf_after.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/inerf_before.jpg' width="192">
+              </div>
+              <script type="text/javascript">
+                function inerf_start() {
+                  document.getElementById('inerf_image').style.opacity = "1";
+                }
+                function inerf_stop() {
+                  document.getElementById('inerf_image').style.opacity = "0";
+                }
+                inerf_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:65%;vertical-align:middle">
+              <a href="http://yenchenlin.me/inerf/">
+                <papertitle>iNeRF: Inverting Neural Radiance Fields for Pose Estimation</papertitle>
+              </a>
+              <br>
+              <a href="https://yenchenlin.me/">Lin Yen-Chen</a>,
+              <a href="http://www.peteflorence.com/">Pete Florence</a>,
+              <a href="https://jonbarron.info/">Jonathan T. Barron</a>,
+              <a href="https://meche.mit.edu/people/faculty/ALBERTOR@MIT.EDU">Alberto Rodriguez</a>,
+              <a href="http://web.mit.edu/phillipi/">Phillip Isola</a>,
+              <strong>Tsung-Yi Lin</strong>,
+              <br>
+              <em>IROS</em>, 2021
+              <br>
+              <a href="http://yenchenlin.me/inerf/">project page</a> /
+              <a href="https://arxiv.org/abs/2012.05877">arXiv</a> /
+              <a href="https://www.youtube.com/watch?v=eQuCZaQN0tI">video</a>
+              <p></p>
+              <p>Given an image of an object and a NeRF of that object, you can estimate that object's pose.
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:35%;vertical-align:middle">
+              <img style="width:100%" src='images/botnet.png'>
+            </td>
+            <td style="padding:20px;width:65%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2101.11605">
+                <papertitle>Bottleneck Transformers for Visual Recognition</papertitle>
+              </a>
+              <br>
+              <a href="https://people.eecs.berkeley.edu/~aravind/">Aravind Srinivas</a>,
+              <strong>Tsung-Yi Lin</strong>,
+              <a href="https://scholar.google.com/citations?user=fpJHNQ8AAAAJ&hl=en">Niki Parmar</a>,
+              <a href="https://shlens.github.io/">Jonathon Shlens</a>,
+              <a href="http://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>,
+              <a href="https://scholar.google.com/citations?user=6rUjwXUAAAAJ&hl=en&oi=ao">Ashish Vaswani</a>
+              <br>
+              <em>CVPR</em>, 2021
+              <br>
+              <p></p>
+              <p>
+                Explore a hybrid architecture of CNN and transformer by simply replacing spatial convolutions
+                with self-attention in the final three bottleneck blocks.
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:35%;vertical-align:middle">
+              <img style="width:100%" src='images/copy-paste.png'>
+            </td>
+            <td style="padding:20px;width:65%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2012.07177">
+                <papertitle>Simple Copy-Paste Is a Strong Data Augmentation Method for Instance Segmentation</papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.com/citations?user=9pNIbGkAAAAJ&hl=en">Golnaz Ghiasi</a>,
+              <a href="https://ycui.me/">Yin Cui</a>,
+              <a href="https://people.eecs.berkeley.edu/~aravind/">Aravind Srinivas</a>,
+              <a href="https://rui1996.github.io/">Rui Qian</a>,
+              <strong>Tsung-Yi Lin</strong>,
+              <a href="https://scholar.google.com/citations?user=Mu_8iOEAAAAJ&hl=en">Ekin Dogus Cubuk</a>,
+              <a href="https://cs.stanford.edu/~quocle/">Quoc V. Le</a>,
+              <a href="https://barretzoph.github.io/">Barret Zoph</a>
+              <br>
+              <em>CVPR</em>, 2021 <font color="red"><strong>(oral)</strong></font>
+              <br>
+              <p></p>
+              <p>
+                Study copy-paste augmentation for instance segmentation and demonstrating SoTA performance on COCO
+                and LVIS datasets.
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:35%;vertical-align:middle">
+              <img style="width:100%" src='images/pre_and_self.png'>
+            </td>
+            <td style="padding:20px;width:65%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2006.06882">
+                <papertitle>Rethinking Pre-training and Self-training</papertitle>
+              </a>
+              <br>
+              <a href="https://barretzoph.github.io/">Barret Zoph*</a>
+              <a href="https://scholar.google.com/citations?user=9pNIbGkAAAAJ&hl=en">Golnaz Ghiasi*</a>,
+              <strong>Tsung-Yi Lin*</strong>,
+              <a href="https://ycui.me/">Yin Cui</a>,
+              <a href="https://quark0.github.io/">Hanxiao Liu</a>,
+              <a href="https://scholar.google.com/citations?user=Mu_8iOEAAAAJ&hl=en">Ekin Dogus Cubuk</a>,
+              <a href="https://cs.stanford.edu/~quocle/">Quoc V. Le</a>
+              <br>
+              <em>NeurIPS</em>, 2020 <font color="red"><strong>(oral)</strong></font>
+              <br>
+              <p></p>
+              <p>
+                Compare self-training and pre-training and observe self-training can still improve when pre-training
+                hurts in a region with more labeled data .
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:35%;vertical-align:middle">
+              <img style="width:100%" src='images/learning_to_see.gif'>
+            </td>
+            <td style="padding:20px;width:65%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2107.00646">
+                <papertitle>Learning to See before Learning to Act: Visual Pre-training for Manipulation</papertitle>
+              </a>
+              <br>
+              <a href="https://yenchenlin.me/">Lin Yen-Chen</a>,
+              <a href="https://andyzeng.github.io/">Andy Zeng</a>,
+              <a href="https://www.cs.columbia.edu/~shurans/">Shuran Song</a>
+              <a href="http://web.mit.edu/phillipi/">Phillip Isola</a>,
+              <strong>Tsung-Yi Lin</strong>
+              <br>
+              <em>ICRA</em>, 2020
+              <br>
+              <a href="https://ai.googleblog.com/2020/03/visual-transfer-learning-for-robotic.html">Blog</a> /
+              <a href="https://www.youtube.com/watch?v=7tFO2V0sYJg&feature=emb_logo">Video</a>
+              <p></p>
+              <p>
+                Leverage visual pre-training from passive observations to aid fast trail-and-error robot learning.
+                Can learn to pick up new objects in ~10 mins.
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:35%;vertical-align:middle">
+              <img style="width:100%" src='images/mask2cad-after.png'>
+            </td>
+            <td style="padding:20px;width:65%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2007.13034">
+                <papertitle>Mask2CAD: 3D Shape Prediction by Learning to Segment and Retrieve</papertitle>
+              </a>
+              <br>
+              <a href="https://weichengkuo.github.io/">Weicheng Kuo</a>,
+              <a href="https://scholar.google.com/citations?user=nkmDOPgAAAAJ&hl=en&oi=ao">Anelia Angelova</a>,
+              <strong>Tsung-Yi Lin</strong>,
+              <a href="https://www.3dunderstanding.org/">Angela Dai</a>
+              <br>
+              <em>ECCV</em>, 2020 <font color="red"><strong>(spotlight)</strong></font>
+              <br>
+              <p></p>
+              <p>
+                Given a single-view image, predict object's 3D shape based on retrieval of CAD models and
+                object pose estimation.
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:35%;vertical-align:middle">
+              <img style="width:100%" src='images/class-balanced.png'>
+            </td>
+            <td style="padding:20px;width:65%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/1901.05555">
+                <papertitle>Class-Balanced Loss Based on Effective Number of Samples</papertitle>
+              </a>
+              <br>
+              <a href="https://ycui.me/">Yin Cui</a>,
+              <a href="https://kmnp.github.io/">Menglin Jia</a>,
+              <strong>Tsung-Yi Lin</strong>,
+              <a href="https://scholar.google.com/citations?user=Y6L6ZYsAAAAJ&hl=en&oi=ao">Yang Song</a>
+              <a href="https://tech.cornell.edu/people/serge-belongie/">Serge Belongie</a>
+
+              <br>
+              <em>CVPR</em>, 2019
+              <br>
+              <p></p>
+              <p>
+                Propose a benchmark and a simple yet effective class-balanced loss for long-tailed image classification.
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:35%;vertical-align:middle">
+              <img style="width:100%" src='images/dropblock.png'>
+            </td>
+            <td style="padding:20px;width:65%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/1810.12890">
+                <papertitle>DropBlock: A regularization method for convolutional networks</papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.com/citations?user=9pNIbGkAAAAJ&hl=en">Golnaz Ghiasi</a>,
+              <strong>Tsung-Yi Lin</strong>,
+              <a href="https://cs.stanford.edu/~quocle/">Quoc V. Le</a>
+              <br>
+              <em>NeurIPS</em>, 2018
+              <br>
+              <p></p>
+              <p>
+                Drop intermediate features randomly during training to regularize learning, working for
+                image classification, object detection, and semantic segmentation.
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:35%;vertical-align:middle">
+              <img style="width:100%" src='images/focal_loss.png'>
+            </td>
+            <td style="padding:20px;width:65%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/1708.02002v2">
+                <papertitle>Focal Loss for Dense Object Detection</papertitle>
+              </a>
+              <br>
+              <strong>Tsung-Yi Lin</strong>,
+              <a href="https://research.fb.com/people/goyal-priya/">Priya Goyal</a>,
+              <a href="https://www.rossgirshick.info/">Ross Girshick</a>,
+              <a href="http://kaiminghe.com/">Kaiming He</a>,
+              <a href="https://pdollar.github.io/">Piotr Dollar</a>
+              <br>
+              <em>ICCV</em>, 2017<font color="red"><strong> (best student paper award)</strong></font>
+              <br>
+              <p></p>
+              <p>
+                Propose Focal Loss to address fg/bg imbalanced issue in dense object detection. Focal Loss has
+                been adopted beyond object detection since its invention.
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:35%;vertical-align:middle">
+              <img style="width:100%" src='images/fpn.png'>
+            </td>
+            <td style="padding:20px;width:65%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/1810.12890">
+                <papertitle>Feature Pyramid Networks for Object Detection</papertitle>
+              </a>
+              <br>
+              <strong>Tsung-Yi Lin</strong>,
+              <a href="https://pdollar.github.io/">Piotr Dollar</a>,
+              <a href="https://www.rossgirshick.info/">Ross Girshick</a>,
+              <a href="http://kaiminghe.com/">Kaiming He</a>,
+              <a href="http://home.bharathh.info/ ">Bharath Hariharan</a>,
+              <a href="https://tech.cornell.edu/people/serge-belongie/">Serge Belongie</a>
+              <br>
+              <em>CVPR</em>, 2017
+              <br>
+              <p></p>
+              <p>
+                Implement an efficient deep network to bring back the idea of pyramidal representations for object
+                detection.
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:35%;vertical-align:middle">
+              <img style="width:100%" src='images/coco-logo.png'>
+            </td>
+            <td style="padding:20px;width:65%;vertical-align:middle">
+              <a href="https://cocodataset.org/#home">
+                <papertitle>Microsoft COCO: Common Objects in Context</papertitle>
+              </a>
+              <br>
+              <strong>Tsung-Yi Lin</strong>,
+              <a href="http://people.cs.uchicago.edu/~mmaire/">Michael Maire</a>,
+              <a href="https://tech.cornell.edu/people/serge-belongie/">Serge Belongie</a>,
+              <a href="http://www.lubomir.org/">Lubomir Bourdev</a>,
+              <a href="https://www.rossgirshick.info/">Ross Girshick</a>,
+              <a href="https://www.cc.gatech.edu/~hays/">James Hays</a>,
+              <a href="http://www.vision.caltech.edu/Perona.html">Pietro Perona</a>,
+              <a href="http://www.cs.cmu.edu/~deva/">Deva Ramanan</a>,
+              <a href="http://larryzitnick.org/">Larry Zitnick</a>,
+              <a href="https://pdollar.github.io/">Piotr Dollar</a>
+              <br>
+              <em>ECCV</em>, 2014 <font color="red"><strong>(oral)</strong></font>
+              <br>
+              <p></p>
+              <p>
+                Collecting instance segmentation masks of 80 common objects for training object detection models. The
+                dataset was then extended for <a href="https://arxiv.org/abs/1801.00868">panoptic segmentation</a>,
+                <a href="https://arxiv.org/abs/1504.00325">multi-modal image-text learning</a>, and beyond.
+              </p>
+            </td>
+          </tr>
+
+        </tbody></table>
+
+        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+          <heading>Service</heading>
+          <tr>
+            <td style="padding:20px;width:35%;vertical-align:middle"><img src="images/cvf.jpg"></td>
+            <td width="65%" valign="center">
+              <a href="https://iccv2021.thecvf.com/area-chairs">Area Chair, ICCV 2021</a>
+              <br><br>
+              <a href="https://cvpr2021.thecvf.com/area-chairs">Area Chair, CVPR 2021</a>
+            </td>
+          </tr>
+
+<!--          <tr>-->
+<!--            <td style="padding:20px;width:35%;vertical-align:middle"><img width="50%" src="images/cvdf-logo.png"></td>-->
+<!--            <td width="65%" valign="center">-->
+<!--              <a href="http://www.cvdfoundation.org/">Secretary of Common Visual Data Foundation, 2017 - Present</a>-->
+<!--            </td>-->
+<!--          </tr>-->
+        </tbody></table>
+        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+                  <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                <a href="https://jonbarron.info/">I am a happy user of this template!</a>
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
